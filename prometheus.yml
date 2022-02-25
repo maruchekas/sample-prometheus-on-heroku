@@ -3,9 +3,9 @@ global:
 
 scrape_configs:
   - job_name: 'prometheus'
-    scrape_interval: 5s
+    scrape_interval: 15s
     static_configs:
-      - targets: ['localhost']
+      - targets: ['https://zerone-2022-develop.herokuapp.com/']
   # - job_name: 'salesforce'
   #       metrics_path: '/services/apexrest/api/v1/prometheus'
   #       scheme: http
