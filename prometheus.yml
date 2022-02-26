@@ -6,7 +6,7 @@ scrape_configs:
     scrape_interval: 15s
     static_configs:
       - targets:
-        - 'maruchek-blogengine-java.herokuapp.com:$PORT'
+        - 'maruchek-blogengine-java.herokuapp.com'
   # - job_name: 'salesforce'
   #       metrics_path: '/services/apexrest/api/v1/prometheus'
   #       scheme: http
