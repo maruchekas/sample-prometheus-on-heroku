@@ -5,7 +5,8 @@ scrape_configs:
   - job_name: 'prometheus'
     scrape_interval: 15s
     static_configs:
-      - targets: ['MY_HOST']
+      - targets:
+        - '{{MY_HOST}}'
   # - job_name: 'salesforce'
   #       metrics_path: '/services/apexrest/api/v1/prometheus'
   #       scheme: http
