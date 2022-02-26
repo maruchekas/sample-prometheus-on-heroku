@@ -3,7 +3,9 @@ global:
 
 scrape_configs:
   - job_name: 'prometheus'
+    metrics_path: '/actuator/prometheus'
     scrape_interval: 15s
+    scheme: https
     static_configs:
       - targets:
         - 'maruchek-blogengine-java.herokuapp.com'
