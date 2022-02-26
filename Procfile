@@ -1,1 +1,1 @@
-web: /app/bin/prometheus --config.file=$HOME/prometheus.yml --web.enable-admin-api --web.listen-address=:$ADDRESS
+web: /app/bin/prometheus --config.file=$HOME/prometheus.yml --web.enable-admin-api --web.listen-address=:$PORT
