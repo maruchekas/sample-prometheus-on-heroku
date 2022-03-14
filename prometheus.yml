@@ -7,7 +7,7 @@ scrape_configs:
     scrape_interval: 15s
     scheme: https
     static_configs:
-      - targets: ['zerone-2022-develop.herokuapp.com','zerone-2022-.herokuapp.com']
+      - targets: ['zerone-2022-develop.herokuapp.com','zerone-2022.herokuapp.com']
   # - job_name: 'salesforce'
   #       metrics_path: '/services/apexrest/api/v1/prometheus'
   #       scheme: http
